@@ -1,2 +1,1 @@
-mgs
-===
+caluclar el ratio
