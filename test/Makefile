@@ -1,7 +1,9 @@
 TARGET	= test
-SRCS	= testmain.cpp
+SRCS	= testmain.cpp\
+				dummytest.cpp
 
-OBJS	= testmain.o
+OBJS	= testmain.o\
+				dummytest.o
 
 CC = g++
 LIBS =-L/usr/local/lib -ldl -lm -lstdc++ -lpthread -lcppunit  
